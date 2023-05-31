@@ -1,12 +1,13 @@
 let char = new Sorcerer('Andre');
-
-console.log(char.name);
-console.log(char.life);
-console.log(char.attack);
+let monster = new LittleMonster();
 
 
-let monster = new Troll();
+const stage = new Stage(
+    char,
+    monster,
+    document.querySelector('#char'),
+    document.querySelector('#monster')
+);
 
-console.log(monster.name);
-console.log(monster.attack);
-console.log(monster.life);
+
+stage.start();
