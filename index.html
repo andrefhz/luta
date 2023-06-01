@@ -1,42 +1,36 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto luta</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <div class="fightarea">
-        <div id="char">
-            <div class="lifebar">
-                <div class="bar" style="width: 10%;"></div>
-            </div>
-            <strong class="name">--</strong>
-            <div>
-                <button class="attackbutton">
-                    Atacar
-                </button>
-            </div>
+      <div id="char">
+        <div class="lifebar">
+          <div class="bar" style="width: 0%"></div>
         </div>
-        <div id="monster">
-            <div class="lifebar">
-                <div class="bar" style="width: 10%;"></div>
-            </div>
-            <strong class="name">--</strong>
-            <div>
-                <button class="attackbutton">
-                    Atacar
-                </button>
-            </div>
+        <strong class="name">--</strong>
+        <div>
+          <button class="attackbutton">Atacar</button>
         </div>
+      </div>
+      <div id="monster">
+        <div class="lifebar">
+          <div class="bar" style="width: 0%"></div>
+        </div>
+        <strong class="name">--</strong>
+        <div>
+          <button class="attackbutton">Atacar</button>
+        </div>
+      </div>
     </div>
 
     <ul class="log"></ul>
 
     <script src="./assets/js/classes.js"></script>
     <script src="./assets/js/script.js"></script>
-    
-</body>
+  </body>
 </html>
